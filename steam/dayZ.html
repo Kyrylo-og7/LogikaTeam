@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Account | DayZ | Elden Ring | The Witcher 3 | Mail Change </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body style="height: 1000px;">
+     <header>
+    <img src = "/img/logo.png" id = "pic" onclick="location.href = '/index.html'" style="cursor:pointer">
+    <nav>
+    <div class="cat">
+    <p id = "text" onclick="location.href = '/catalog.html'">Catalog</p>
+    <ul>
+        <li onclick="location.href ='/steam.html'">Steam</li>
+        <li onclick="location.href ='/telegram.html'">Telegram</li>
+        <li onclick="location.href ='/fort.html'">Fortnite</li>
+    </ul>
+    </div>
+    </nav>
+    <p id = "text" style="cursor: pointer;" onclick="location.href = 'https://forms.gle/JGggJbR5kUwbup916'">Support</p>
+    <p id = "text" style="cursor: pointer; " onclick="location.href = '/aboutus.html'">About Us</p>
+    
+      <img onclick="location.href = '/cart.html'" id = "username" src = "/img/shopping-cart.png" style="width: 50px; margin:20px;">
+    </header>
+
+<div class="usa2019">
+    <div class="buy">
+        <h2 id = "name" style="color: white;">Steam Account | DayZ | Elden Ring | The Witcher 3 | Mail Change </h1>
+          <h2 id = "price" style="color: white;">$28</h2>  
+          <p id = "num" style="color: white; font-size:18px;">Item's number: #59237</p>
+          <p style="color: white; font-size:18px;">Seller : podneb0m</p>
+        <button id = "btn2" onclick="location.href = '/telegram/last.html'">Buy now</button>  
+         <button id = "btn2" onclick="cart()">Add to cart</button>  
+    </div>
+</div>
+
+
+
+<script>
+    function cart(){
+        let name = document.getElementById('name').textContent;
+        let price = document.getElementById('price').textContent;
+
+        localStorage.setItem('savedName',name);
+        localStorage.setItem('savedPrice',price);
+    }
+</script>
+
+    <footer style="cursor: pointer;">
+  <div>
+    <h2>Information</h2>
+    <p onclick="location.href = '/404.html'">Privacy Policy</p>
+    <p onclick="location.href = '/404.html'">Return Policy</p>
+    <p onclick="location.href = '/404.html'">About Company</p>
+  </div>
+
+  <div>
+    <h2>Social Media</h2>
+    <p onclick="location.href = '/404.html'">Telegram</p>
+    <p onclick="location.href = '/404.html'">Instagram</p>
+    <p onclick="location.href = '/404.html'">Facebook</p>
+  </div>
+
+  <div>
+    <p>LogikaTeam -  secure marketplace with low prices</p>
+    <p>admin@team.com</p>
+    <button id = "btn3">Have a question?</button>
+  </div>
+</footer>
+</body>
+</html>
